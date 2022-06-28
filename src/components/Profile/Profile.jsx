@@ -1,19 +1,15 @@
-import MyPosts from './MyPosts/MyPosts';
-import s from './Profile.module.css'
+import MyPosts from "./MyPosts/MyPosts";
+import s from "./Profile.module.css";
+import ProfileInfo from "./Profileinfo/ProfileInfo";
 
 const Profile = () => {
-    return (
-      <div className={s.content}>
-      <img src="https://html5css.ru/css/img_lights.jpg" /> 
-      <div>
-      ava + description 
-      </div>
-      <textarea></textarea>
-      <button>add post</button>
-      <MyPosts/> 
-      </div>
 
-    )
-}
+  return (  
+    <div>
+      <ProfileInfo/>
+      <MyPosts />
+    </div>
+  );
+};
 
 export default Profile;

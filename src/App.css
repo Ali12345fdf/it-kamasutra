@@ -11,5 +11,13 @@
   margin: 0 auto;
 }
 
+.app-wrapper-content{
+  grid-area: c;
+  background-color: cornflowerblue;
+}
+body{
+  margin: 0px;
+}
+
 
 
